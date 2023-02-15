@@ -7,13 +7,29 @@ const Styles = StyleSheet.create ({
         justifyContent:"flex-end"
 
     },
-    button:{
+    buttonLogin:{
         backgroundColor:"#0c2461",
         margin:10,
         alignItems:'center',
         borderWidth:1,
         borderRadius:30,
         borderColor:'white'
+
+    },
+    button:{
+        marginLeft:100,
+        flex:1,
+        flexDirection:"row",
+        
+
+    },
+    txtbtnrgt:{
+        color:"#2d3436",
+        fontSize:18
+    },
+    txtRegister:{
+        color:"#0984e3",
+        fontSize:18
 
     },
     buttonText:{
